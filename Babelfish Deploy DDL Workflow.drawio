@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" modified="2024-01-22T16:14:26.665Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="_nJpe4PdUHvLKBybvbEe" version="22.1.21" type="github">
+  <diagram name="Page-1" id="iWM8F4ieGeH4_vaYs4WB">
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NaQoKHvgldikXw9V-TxC-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaQoKHvgldikXw9V-TxC-1" target="NaQoKHvgldikXw9V-TxC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaQoKHvgldikXw9V-TxC-1" value="Export DDL from SQL Server&lt;br&gt;1.&amp;nbsp; One full DDL&lt;br&gt;2. Individual DDL for all tables, views, etc..&lt;br&gt;3.&amp;nbsp; Individual DDLS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="40" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NaQoKHvgldikXw9V-TxC-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaQoKHvgldikXw9V-TxC-3" target="NaQoKHvgldikXw9V-TxC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaQoKHvgldikXw9V-TxC-3" value="Export individual DDLs from Babelfish" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="190" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NaQoKHvgldikXw9V-TxC-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaQoKHvgldikXw9V-TxC-4" target="NaQoKHvgldikXw9V-TxC-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaQoKHvgldikXw9V-TxC-4" value="Review Error Messages&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="260" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NaQoKHvgldikXw9V-TxC-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaQoKHvgldikXw9V-TxC-5" target="NaQoKHvgldikXw9V-TxC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaQoKHvgldikXw9V-TxC-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaQoKHvgldikXw9V-TxC-5" target="NaQoKHvgldikXw9V-TxC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaQoKHvgldikXw9V-TxC-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaQoKHvgldikXw9V-TxC-5" target="NaQoKHvgldikXw9V-TxC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaQoKHvgldikXw9V-TxC-5" value="Deploy into Babelfish" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="200" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NaQoKHvgldikXw9V-TxC-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaQoKHvgldikXw9V-TxC-6" target="NaQoKHvgldikXw9V-TxC-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaQoKHvgldikXw9V-TxC-6" value="Validate all objects have been created." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="300" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NaQoKHvgldikXw9V-TxC-7" value="Compare DDLs from SQL Server vs Babelfish" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="460" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NaQoKHvgldikXw9V-TxC-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.594;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NaQoKHvgldikXw9V-TxC-6" target="NaQoKHvgldikXw9V-TxC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaQoKHvgldikXw9V-TxC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaQoKHvgldikXw9V-TxC-9" target="NaQoKHvgldikXw9V-TxC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaQoKHvgldikXw9V-TxC-9" value="Deploy any missing objects / correct scripts for compatibility" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="460" width="180" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
