@@ -1,9 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2024-05-06T16:04:25.095Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.2.8" etag="WCmkVCQTDPm42WfAwTtE" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-06T16:24:31.746Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="UjHCJPMkjmOvi-rzDaYF" version="24.2.8" type="github">
   <diagram name="Page-1" id="AVXBkD7wlbS6Z9IV2EYe">
-    <mxGraphModel>
+    <mxGraphModel dx="1687" dy="868" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VIUTwRjkLPnY0D8pLh86-1" value="(1) Receive List of Server logins and passwords from DBAs and upload to the information database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="50" width="580" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VIUTwRjkLPnY0D8pLh86-2" value="(4) Verify username and passwords have access to all databases on the servers&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="199" y="279" width="453" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VIUTwRjkLPnY0D8pLh86-4" value="(3) Ensure no bank id/names are missing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="160" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VIUTwRjkLPnY0D8pLh86-5" value="(2) Programmatically retrieve a list of all databases and build a JSON config file." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="93" y="158" width="231" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VIUTwRjkLPnY0D8pLh86-6" value="(5) Determine database dependencies on source system and create a batch file for execution" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="78" y="406" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VIUTwRjkLPnY0D8pLh86-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="130" as="sourcePoint" />
+            <mxPoint x="780" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VIUTwRjkLPnY0D8pLh86-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="65" y="250" as="sourcePoint" />
+            <mxPoint x="785" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VIUTwRjkLPnY0D8pLh86-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="69" y="504" as="sourcePoint" />
+            <mxPoint x="789" y="504" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VIUTwRjkLPnY0D8pLh86-10" value="(7) Create databases on Target system." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="246" y="533" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VIUTwRjkLPnY0D8pLh86-11" value="(6) Execute Generate DDL scripts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="412" y="406" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VIUTwRjkLPnY0D8pLh86-12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="63" y="757" as="sourcePoint" />
+            <mxPoint x="783" y="757" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VIUTwRjkLPnY0D8pLh86-13" value="(8) Deploy to Target Systems" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="654" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VIUTwRjkLPnY0D8pLh86-14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="48" y="889" as="sourcePoint" />
+            <mxPoint x="768" y="889" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VIUTwRjkLPnY0D8pLh86-15" value="(9) Perform validation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311" y="792" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VIUTwRjkLPnY0D8pLh86-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="63" y="371" as="sourcePoint" />
+            <mxPoint x="783" y="371" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VIUTwRjkLPnY0D8pLh86-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="42" y="620" as="sourcePoint" />
+            <mxPoint x="762" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
