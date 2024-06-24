@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-24T19:57:04.221Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="jUQtN9zinNKIXfpVgiTJ" version="24.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-24T22:22:20.251Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="lgDTREC2TQjVpdkodJIi" version="24.6.0" type="github">
   <diagram name="Page-1" id="sKITD_88z1vJ94t6zKOO">
-    <mxGraphModel dx="1448" dy="603" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1007" dy="503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -54,7 +54,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="syWPXiomNhrmmpA-TFZg-9" value="&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;b&gt;&lt;u&gt;0600 Modify DDL Tables Scripts for Babelfish Compliance&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;&quot; color=&quot;#333333&quot;&gt;01_save_folder_tables.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot; color=&quot;#333333&quot;&gt;02_copy_rename_tablesfull&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot; color=&quot;#333333&quot;&gt;03_create_table_elements.py&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot; color=&quot;#333333&quot;&gt;04_modify_tables_babelfish_compliant.py&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="287.5" y="490" width="340" height="80" as="geometry" />
+          <mxGeometry x="287.5" y="475" width="340" height="80" as="geometry" />
         </mxCell>
         <mxCell id="syWPXiomNhrmmpA-TFZg-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" parent="1" source="syWPXiomNhrmmpA-TFZg-10" target="syWPXiomNhrmmpA-TFZg-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -75,7 +75,7 @@
           <mxGeometry x="359.99" y="750" width="280" height="100" as="geometry" />
         </mxCell>
         <mxCell id="syWPXiomNhrmmpA-TFZg-14" value="&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;b&gt;&lt;u&gt;1100 Deploy DDL Table Elements Execution&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;font color=&quot;#333333&quot;&gt;06_execute_ddl_tableelements_batch_files.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="520" y="1080" width="310" height="40" as="geometry" />
+          <mxGeometry x="540" y="1075" width="310" height="40" as="geometry" />
         </mxCell>
         <mxCell id="syWPXiomNhrmmpA-TFZg-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" parent="1" source="syWPXiomNhrmmpA-TFZg-15" target="syWPXiomNhrmmpA-TFZg-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -96,7 +96,7 @@
           <mxGeometry x="70" y="790" width="267.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="syWPXiomNhrmmpA-TFZg-18" value="&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;b&gt;&lt;u&gt;1500 Deploy DB Dependencies Execution&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;font color=&quot;#333333&quot;&gt;03_execute_db_dependencies.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="226.25" y="1080" width="252.5" height="40" as="geometry" />
+          <mxGeometry x="223" y="1075" width="252.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="syWPXiomNhrmmpA-TFZg-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.381;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" parent="1" source="syWPXiomNhrmmpA-TFZg-3" target="syWPXiomNhrmmpA-TFZg-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -200,6 +200,12 @@
         </mxCell>
         <mxCell id="rylidvbhO6okRbjTieRh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=3;" parent="1" source="syWPXiomNhrmmpA-TFZg-13" target="syWPXiomNhrmmpA-TFZg-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIBJlZaWyo6-5FCZua_-4" value="SELECT * FROM sourcegen.ddl_scripts_batch_monitor;" style="text;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="967" y="384.00001220703126" width="327" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIBJlZaWyo6-5FCZua_-6" value="SELECT * FROM targetdeploy.ddl_tables_batch_monitor;" style="text;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="953.0033333333334" y="894.0000406901042" width="334" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
