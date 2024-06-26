@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-26T14:56:03.039Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="gOo5mCkOycO6jQkz_qtH" version="24.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-26T14:56:36.315Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="uv92YGGnA51fu-KwXpTH" version="24.6.2" type="github">
   <diagram name="Page-1" id="sKITD_88z1vJ94t6zKOO">
     <mxGraphModel dx="1328" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -225,13 +225,13 @@
         <mxCell id="GBqM-zpvMOJnWf_ZMjJe-8" value="SELECT * FROM targetdeploy.db_dependencies_batch;" style="text;whiteSpace=wrap;fontStyle=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="930" y="1182" width="467" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="GBqM-zpvMOJnWf_ZMjJe-9" value="&lt;div&gt;&lt;font size=&quot;1&quot; color=&quot;#333333&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;Boxes in green are scalable processes that can run on multiple machines.&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="GBqM-zpvMOJnWf_ZMjJe-9" value="&lt;div&gt;&lt;font size=&quot;1&quot; color=&quot;#333333&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;Boxes in green are &lt;u&gt;scalable &lt;/u&gt;processes that can run on &lt;u&gt;multiple &lt;/u&gt;machines.&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="75" y="1360" width="635" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GBqM-zpvMOJnWf_ZMjJe-10" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 42px;&quot; color=&quot;#ff3333&quot;&gt;Notes&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="1290" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="GBqM-zpvMOJnWf_ZMjJe-12" value="&lt;div&gt;&lt;font size=&quot;1&quot; color=&quot;#333333&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;Boxes in red are &lt;u&gt;build &lt;/u&gt;processes that must run from a single machine.&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="GBqM-zpvMOJnWf_ZMjJe-12" value="&lt;div&gt;&lt;font size=&quot;1&quot; color=&quot;#333333&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;Boxes in red are &lt;u&gt;build &lt;/u&gt;processes that must run from a &lt;u&gt;single &lt;/u&gt;machine.&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="75" y="1430" width="635" height="40" as="geometry" />
         </mxCell>
       </root>
