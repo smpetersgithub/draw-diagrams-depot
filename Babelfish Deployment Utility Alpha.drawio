@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-26T14:50:26.167Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="ZSAUzJxuByx9VSx9Hsn_" version="24.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-26T14:54:28.558Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="FbQqoWifWUlBxZDOgeWa" version="24.6.2" type="github">
   <diagram name="Page-1" id="sKITD_88z1vJ94t6zKOO">
     <mxGraphModel dx="1328" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -222,7 +222,7 @@
         <mxCell id="GBqM-zpvMOJnWf_ZMjJe-7" value="SELECT * FROM targetdeploy.ddl_tableelements_batch_monitor;" style="text;whiteSpace=wrap;fontStyle=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="930" y="1082" width="550" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="GBqM-zpvMOJnWf_ZMjJe-8" value="SELECT * FROM targetdeploy.db_dependencies;" style="text;whiteSpace=wrap;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="GBqM-zpvMOJnWf_ZMjJe-8" value="SELECT * FROM targetdeploy.db_dependencies_batch;" style="text;whiteSpace=wrap;fontStyle=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="930" y="1182" width="467" height="36" as="geometry" />
         </mxCell>
         <mxCell id="GBqM-zpvMOJnWf_ZMjJe-9" value="&lt;div&gt;&lt;font size=&quot;1&quot; color=&quot;#333333&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;Boxes in green are scalable processes that can run on multiple machines.&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
